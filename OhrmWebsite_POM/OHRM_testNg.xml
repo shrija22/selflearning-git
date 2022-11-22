@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="OHRM_Test Suite">
+          <test name="Pending Leave request">
+          <classes>
+          <class name= "testcases.Test_PendingLeave_Request">
+          </class>
+          </classes> 
+</test>
+<test name="user role test case">
+<class name ="testcases.Test_User_role">
+</class>
+</test>
+</suite>
