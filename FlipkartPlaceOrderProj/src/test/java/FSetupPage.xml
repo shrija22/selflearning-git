@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Testchrome">
+  <parameter name ="browser" value="chrome" ></parameter>
+   <classes>
+      <class name="com.POMFlipkartProj2.FSetupPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FloginPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FSearchPrdPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FAddtoCartPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FShippingDetails"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Testfirefox">
+  <parameter name ="browser" value="ff" ></parameter>
+   <classes>
+      <class name="com.POMFlipkartProj2.FSetupPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FloginPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FSearchPrdPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FAddtoCartPage"/>
+    </classes>
+     <classes>
+      <class name="com.POMFlipkartProj2.FShippingDetails"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
