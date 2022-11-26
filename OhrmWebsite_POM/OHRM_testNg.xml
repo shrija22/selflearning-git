@@ -5,9 +5,9 @@
           <class name= "testcases.Test_PendingLeave_Request">
           </class>
           </classes> 
-</test>
-<test name="user role test case">
+ </test>
+<!--    <test name="user role test case">
 <class name ="testcases.Test_User_role">
 </class>
-</test>
+</test>  -->
 </suite>

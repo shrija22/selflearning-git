@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OHRM_Test Suite]">
+  <test thread-count="5" name="Pending Leave request(failed)">
+    <classes>
+      <class name="testcases.Test_PendingLeave_Request">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchbrowser"/>
+          <include name="Pending_l_req"/>
+        </methods>
+      </class> <!-- testcases.Test_PendingLeave_Request -->
+    </classes>
+  </test> <!-- Pending Leave request(failed) -->
+</suite> <!-- Failed suite [OHRM_Test Suite] -->

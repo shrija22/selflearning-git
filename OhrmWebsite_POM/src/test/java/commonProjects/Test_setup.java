@@ -27,16 +27,17 @@ public class Test_setup {
 	
   @SuppressWarnings("deprecation")
 @BeforeSuite
-  public void launchbrowser() {
+  public void launchbrowser() throws IOException {
+	  loadpropertyfile();
 	  String browser = prop.getProperty("browser");
 	  String url=prop.getProperty("url");
-	  String DriverLocation=prop.getProperty("DriverLocation");
+	  String driverLocation=prop.getProperty("DriverLocation");
 	  if (browser.equalsIgnoreCase("chrome")) {
-		  System.setProperty("webdriver.chrome.driver", DriverLocation);
+		  System.setProperty("webdriver.chrome.driver",driverLocation);
 		  driver=new ChromeDriver();
 	  }
 	  else if(browser.equalsIgnoreCase("firefox")) {
-		  System.setProperty("webdriver.gecko.driver", DriverLocation);
+		  System.setProperty("webdriver.gecko.driver", driverLocation);
 		  driver=new FirefoxDriver();
 	  }
 	  driver.manage().window().maximize();
